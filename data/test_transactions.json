@@ -1,0 +1,44 @@
+[
+    {
+        "wallet_address": "0x1234567890abcdef1234567890abcdef12345678",
+        "action": "deposit",
+        "amount": 1000,
+        "token_symbol": "DAI",
+        "timestamp": "2023-01-01T00:00:00Z"
+    },
+    {
+        "wallet_address": "0x1234567890abcdef1234567890abcdef12345678",
+        "action": "borrow",
+        "amount": 500,
+        "token_symbol": "USDC",
+        "timestamp": "2023-01-02T00:00:00Z"
+    },
+    {
+        "wallet_address": "0x1234567890abcdef1234567890abcdef12345678",
+        "action": "repay",
+        "amount": 500,
+        "token_symbol": "USDC",
+        "timestamp": "2023-01-03T00:00:00Z"
+    },
+    {
+        "wallet_address": "0x9876543210fedcba9876543210fedcba98765432",
+        "action": "deposit",
+        "amount": 2000,
+        "token_symbol": "USDT",
+        "timestamp": "2023-01-01T00:00:00Z"
+    },
+    {
+        "wallet_address": "0x9876543210fedcba9876543210fedcba98765432",
+        "action": "borrow",
+        "amount": 3000,
+        "token_symbol": "DAI",
+        "timestamp": "2023-01-02T00:00:00Z"
+    },
+    {
+        "wallet_address": "0x9876543210fedcba9876543210fedcba98765432",
+        "action": "liquidationcall",
+        "amount": 1000,
+        "token_symbol": "DAI",
+        "timestamp": "2023-01-03T00:00:00Z"
+    }
+]
